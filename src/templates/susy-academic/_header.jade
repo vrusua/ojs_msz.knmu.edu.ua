@@ -1,0 +1,33 @@
+.front-page
+    header
+    div.container
+      div.logo
+        h1 Title
+      div.right-content
+        div.top-content
+          div.city-phone
+            p Санкт-Петербург : 
+              span +7 921 123 32.
+          div.social-icons
+            ul
+              -var social = ["vk","fb","inst","odn"]
+              -each soc, i in social
+                li
+                  a(href="#") #{soc}
+          .order-now-btn
+            a(href="#")
+              span Заказать звонок
+        nav.top-menu
+          ul
+            - var items = ["one","two","three"]
+            - each item, i in items
+              li
+                a(href="#") #{item}: #{i}
+section.fp-banner
+    .wrap
+      .fp-banner-img
+        img(src="/")
+      .fp-form
+        form
+          input(type="text" placeholder="text")
+          button(type="submit" value="GO") GO

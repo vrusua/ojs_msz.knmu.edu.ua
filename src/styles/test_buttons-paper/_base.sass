@@ -1,0 +1,56 @@
+// == BASE STYLES - Simple Susy ==
+// http://codepen.io/abberdab/pen/AgqFo
+//============================================================================= 
+
+// -- Constants --
+//-----------------------------------------------------------------------------
+$blue: #2e3484
+$red: #EA363F
+$white: #ffffff
+$grey: #dedede
+// -- / Constants--
+
+body
+    +type-body
+    +font-smoothing
+    line-height: 1.5
+    margin: 0
+    padding: 0
+    font-size: $base-font-size / 16px * 100 + 0%
+    text-rendering: optimizeLegibility
+    font-family: 'Signika', Trebuchet, Verdana, Arial
+
+a, a:link, a:visited, a:active
+    color: darken($blue, 5%)
+
+a:hover, a:focus
+    color: $blue
+
+h1
+    +type-head-large
+    font-size: em(72px, $base-font-size)
+    line-height: lh(84, 72)
+
+h2
+    +type-head-med
+    font-size: em(48px, $base-font-size)
+    line-height: lh(54, 48)
+
+h3
+    +type-head-caps
+    font-size: em(36px, $base-font-size)
+    line-height: lh(48, 36)
+
+h4
+    +type-head-caps
+    font-size: em(18px, $base-font-size)
+    line-height: lh(24, 18)
+
+p
+    margin: 1em 0
+
+img
+    max-width: 100%
+    height: auto
+    
+// == / BASE STYLES - Simple Susy == 

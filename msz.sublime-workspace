@@ -1,0 +1,627 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"cle",
+				"clearfix"
+			],
+			[
+				"font",
+				"font-size"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 287.0,
+		"selected_items":
+		[
+			[
+				"conv",
+				"SassBeautify: Convert from SCSS to current type"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"goog",
+				"Google Translate selected to..."
+			],
+			[
+				"bea",
+				"SassBeautify: Convert from CSS to current type"
+			],
+			[
+				"beau",
+				"SassBeautify: Convert from SCSS to current type"
+			],
+			[
+				"dup",
+				"File: Duplicate"
+			],
+			[
+				"goo",
+				"Google Translate selected to..."
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"googl",
+				"Google Translate selected to..."
+			],
+			[
+				"ren",
+				"File: Rename"
+			],
+			[
+				"html2",
+				"HTML2Text: Convert selection"
+			],
+			[
+				"html",
+				"HTML2Jade: Convert clipboard content"
+			],
+			[
+				"beay",
+				"SassBeautify: Convert from CSS to current type"
+			],
+			[
+				"re",
+				"File: Rename"
+			],
+			[
+				"pic",
+				"Color Picker"
+			],
+			[
+				"del",
+				"File: Delete"
+			],
+			[
+				"rena",
+				"File: Rename"
+			],
+			[
+				"sass",
+				"SassBeautify: Convert from SCSS to current type"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"renam",
+				"File: Rename"
+			],
+			[
+				"gener",
+				"ASCII Decorator: Generate Font Test"
+			],
+			[
+				"font se",
+				"ASCII Decorator: Generate Font Test"
+			],
+			[
+				"comb",
+				"Run CSScomb"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"git",
+				"Github: Plugin Settings"
+			],
+			[
+				"githu",
+				"Github: Repository"
+			],
+			[
+				"google",
+				"Google Translate selected to..."
+			],
+			[
+				"Snippet: ",
+				"Snippet: #!/usr/bin/env"
+			],
+			[
+				"fet",
+				"Fetch: Manage"
+			],
+			[
+				"fetch",
+				"Fetch: File"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 565.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/owlookit/_dev/_test/ojs_msz.knmu.edu.ua"
+	],
+	"file_history":
+	[
+		"/Users/owlookit/Downloads/#deutsch/_podcasts/#deutscheradio.de Oligarchen verärgert über Putin _Nachrichten/#deutsch_podcast Oligarchen verärgert über Putin _Nachrichten.md",
+		"/Users/owlookit/Downloads/#deutsch/_podcasts/#deutscheradio.de Malaria/#deutsch_podcast Malaria.md",
+		"/Users/owlookit/Downloads/#deutsch/_podcasts/#deutscheradio.de Karoten/#deutsch_podcast Karoten.md",
+		"/Users/owlookit/_dev/_test/sass_gulp_1daysite.com/src/styles/app.sass",
+		"/Users/owlookit/_dev/_test/sass_gulp_1daysite.com/src/styles/_style.sass",
+		"/Users/owlookit/_dev/_test/sass_gulp_1daysite.com/src/templates/index.html",
+		"/Users/owlookit/_dev/_test/sass_gulp_1daysite.com/gulp/config.js",
+		"/Users/owlookit/_dev/_test/sass_gulp_1daysite.com/gulpfile.js",
+		"/Users/owlookit/Desktop/#deutsch_podcast Oligarchen verärgert über Putin _Nachrichten/Oligarchen verärgert über Putin.md",
+		"/Users/owlookit/Desktop/#deutsch_podcast Malaria/#deutsch_podcasts Malaria.md",
+		"/Users/owlookit/Desktop/#deutsch_podcast Carroten/#deutsch_podcasts Carrot.md",
+		"/Users/owlookit/Desktop/#deutsch_podcasts Carrot.md",
+		"/Users/owlookit/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/owlookit/Library/Application Support/Sublime Text 3/Packages/Color Highlighter/ColorHighlighter.sublime-settings",
+		"/Users/owlookit/Desktop/#deutsch_podcasts Malaria.md",
+		"/Users/owlookit/Downloads/_job/freelance owlookit.md",
+		"/Users/owlookit/Downloads/freelance owlookit.md",
+		"/freelance@owlookit.de.md ",
+		"/Users/owlookit/Desktop/Oligarchen verärgert über Putin.md",
+		"/Users/owlookit/.ssh/config",
+		"/Users/owlookit/Documents/_contacts/Др. Рауф Алиев/Др. Рауф.md",
+		"/Applications/storm/README.md",
+		"/Users/owlookit/_dev/_test/apple.md",
+		"/Users/owlookit/.ssh/known_hosts",
+		"/Users/owlookit/.ssh/config.cfg",
+		"/private/var/folders/5v/kgvhg3gs0bxc3lht6dl7gw500000gn/T/pl.ewas.Crax/crax-tmp-0166EDAE-3EB6-4A27-80EC-8EC2EF31C1C4/owlookit.pub",
+		"/private/var/folders/5v/kgvhg3gs0bxc3lht6dl7gw500000gn/T/pl.ewas.Crax/crax-tmp-889889FF-8A17-42A3-B88E-58D3D29D4807/owlookit",
+		"/Users/owlookit/Desktop/Др. Рауф.md",
+		"/Users/owlookit/Desktop/N2.md",
+		"/Users/owlookit/_dev/_test/sass_gulp_bundle/src/styles/app_susy-simple.sass",
+		"/Users/owlookit/_dev/_test/sass_gulp_bundle/src/styles/test_layout-susy-simple/_base_layout.sass",
+		"/Users/owlookit/_dev/_test/sass_gulp_bundle/src/styles/test_layout-susy-simple/_base_typo.sass",
+		"/Users/owlookit/_dev/_test/sass_gulp_bundle/src/styles/lib/medium/z-index.sass",
+		"/Users/owlookit/_dev/_test/sass_gulp_bundle/src/styles/lib/medium/z-index fat@medium.com.sass",
+		"/Users/owlookit/Downloads/#tutorial_css z-index/z-index fat@medium.com.less",
+		"/Users/owlookit/_dev/_test/sass_gulp_bundle/src/styles/lib/medium/z-index.less",
+		"/Users/owlookit/_business/_carreire/_med/QUIZ - Arbeitszeugnis.md",
+		"/Users/owlookit/_dev/_test/sass_gulp_bundle/built/susy-simple.html",
+		"/Users/owlookit/_dev/_test/sass_gulp_bundle/src/styles/app_susy-academic.sass",
+		"/Users/owlookit/_dev/_test/sass_susy/builder/config_grid-susy.yml",
+		"/Users/owlookit/_dev/_test/sass_susy/builder/README.md",
+		"/Users/owlookit/_dev/_test/x/html-chriscoyier/README.md",
+		"/Users/owlookit/_dev/_test/x/wp-netcraft/_links.md",
+		"/Users/owlookit/_dev/_test/x/html-guardian/docs/styleguide_templates/_header.html",
+		"/Users/owlookit/_dev/_test/x/html-guardian/docs/styleguide_templates/_footer.html",
+		"/Users/owlookit/_dev/_test/x/html-guardian/docs/fronts.md",
+		"/Users/owlookit/_dev/_test/_temp/msvc.bat",
+		"/Users/owlookit/_dev/_test/owl-owlookit-landing/README.md",
+		"/Users/owlookit/_dev/_test/_temp/_Akella/links_github.md",
+		"/Users/owlookit/_dev/_test/owl-sass/README.md",
+		"/Users/owlookit/Downloads/OP Bericht​ - Insuffizienzen von Darmanastomosen.md",
+		"/Users/owlookit/Downloads/Entlassungsbrief (template) - Gallenblasenempyem bei Cholezystolithiasis.md",
+		"/Users/owlookit/Downloads/Entlassungsbrief - Sigmadivertikulitis.md",
+		"/Users/owlookit/Downloads/OP Bericht - Postoperative Wundheilungsstörung.md",
+		"/Users/owlookit/Downloads/Protokoll Fraktur vom 16.01.2015.md",
+		"/Users/owlookit/_dev/_test/css-sourcejs/app.js",
+		"/private/var/folders/5v/kgvhg3gs0bxc3lht6dl7gw500000gn/T/pl.ewas.Crax/crax-tmp-35EBD63E-CB17-4C51-BF70-5C2B513D3397/screen.css",
+		"/private/var/folders/5v/kgvhg3gs0bxc3lht6dl7gw500000gn/T/pl.ewas.Crax/crax-tmp-3C0E5310-1D2A-480D-B735-F49EA1C1C364/breadcrumbs.tpl",
+		"/private/var/folders/5v/kgvhg3gs0bxc3lht6dl7gw500000gn/T/pl.ewas.Crax/crax-tmp-1086F6E8-EB31-4633-A95E-CCBEE556BEFE/breadcrumbs.tpl",
+		"/private/var/folders/5v/kgvhg3gs0bxc3lht6dl7gw500000gn/T/pl.ewas.Crax/crax-tmp-EB1C2850-36FE-4A0B-835E-FDDED15B0FD6/navbar.tpl",
+		"/private/var/folders/5v/kgvhg3gs0bxc3lht6dl7gw500000gn/T/pl.ewas.Crax/crax-tmp-B9F61469-E48B-4F2B-B998-613143FC3A58/navbar.tpl",
+		"/Users/owlookit/Downloads/#deutsch/#deutsch Aerzte.md",
+		"/Users/owlookit/Downloads/#deutsch/#deutsch 2.md",
+		"/Users/owlookit/Downloads/#edu_med #MOOC Grundlagenkurs Unfallchirurgie _Coursera/1 - 1 - Episode 1 Polytrauma (Dauer- 38-33).srt",
+		"/Users/owlookit/Downloads/#tutorial_css Video Background/links.md",
+		"/Users/owlookit/Downloads/#template_css Infine - One Page Conference _ThemeForest/infine/assets/css/infine.css",
+		"/Users/owlookit/_edu/_dev/#tutorial_hack Взлом Wi-Fi/airport.md",
+		"/Users/owlookit/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/owlookit/Downloads/Взлом Wi-Fi/WIFI Pirate 13/à≠·‚‡„™Ê®Ô.txt",
+		"/Users/owlookit/Downloads/airport.md",
+		"/Users/owlookit/Downloads/#deutsch/Немецкий за 30 дней/freide.ru.txt",
+		"/Users/owlookit/_business/_partners/ejournals contacts.md",
+		"/Users/owlookit/Downloads/#tmplate_WP Divi @elegantthemes.com/Divi_2.1.2/Don't read this.txt",
+		"/Volumes/Hype 2.5.2/serial.txt",
+		"/Users/owlookit/_dev/_template/_css/#template_css #adaptive @gumgum.com/gumgum.com/files/techspecs/gumgum_canvas_template/budlight_canvas.html",
+		"/Users/owlookit/Downloads/#tutorial_animation Responsive banner in Adobe Edge/project_files/responsive_banner_completed/README.txt",
+		"/Users/owlookit/_dev/_test/html-1daysite.com/_doc/ppt/index.html",
+		"/private/var/folders/5v/kgvhg3gs0bxc3lht6dl7gw500000gn/T/pl.ewas.Crax/crax-tmp-137381C0-066B-467D-AA61-75D255D00E50/index.html",
+		"/Users/owlookit/_business/OWLOOKIT LLC/contacts.md",
+		"/Users/owlookit/Downloads/shevelya/security_shevelya.com.md",
+		"/private/var/folders/5v/kgvhg3gs0bxc3lht6dl7gw500000gn/T/pl.ewas.Crax/crax-tmp-212FC70B-2049-4E08-9A58-B4A318167CC4/.htpasswd",
+		"/private/var/folders/5v/kgvhg3gs0bxc3lht6dl7gw500000gn/T/pl.ewas.Crax/crax-tmp-688E59F8-8898-4F26-92F7-9366EC5C5D58/.htaccess",
+		"/private/var/folders/5v/kgvhg3gs0bxc3lht6dl7gw500000gn/T/pl.ewas.Crax/crax-tmp-0B61B6BC-E433-4BE3-A481-18CDC4B8FA01/.htaccess",
+		"/private/var/folders/5v/kgvhg3gs0bxc3lht6dl7gw500000gn/T/pl.ewas.Crax/crax-tmp-CFBC308B-C083-427F-AF13-DA7FAB0D6883/.htaccess",
+		"/private/var/folders/5v/kgvhg3gs0bxc3lht6dl7gw500000gn/T/pl.ewas.Crax/crax-tmp-F965DA77-A695-402A-A91C-E1E8E7E00998/robots.txt",
+		"/private/var/folders/5v/kgvhg3gs0bxc3lht6dl7gw500000gn/T/pl.ewas.Crax/crax-tmp-1B30E918-F39E-4E4B-86F9-5C0AB6924555/.htaccess",
+		"/private/var/folders/5v/kgvhg3gs0bxc3lht6dl7gw500000gn/T/pl.ewas.Crax/crax-tmp-43A354FB-5F9E-47D2-8DBB-CD31D089724F/.htaccess",
+		"/Users/owlookit/_dev/_template/_idea/#idea_startup #owlookit @5day-site.ru/5day-site.ru/js/script.js",
+		"/Users/owlookit/_dev/_template/_idea/#idea_startup #owlookit @5day-site.ru/5day-site.ru/js/placeholdem.js",
+		"/Users/owlookit/_dev/_template/_idea/#idea_startup #owlookit @5day-site.ru/5day-site.ru/styles/build.css",
+		"/Users/owlookit/_dev/_template/_idea/#idea_startup #owlookit @5day-site.ru/5day-site.ru/_00.txt",
+		"/Users/owlookit/Library/Caches/Cleanup At Startup/Transmit/21120F6E-1726-4E15-A097-09FDCAC470B2/database.php",
+		"/Users/owlookit/_business/OWLOOKIT LLC/РАСХОД/2014-10-22 @itl.ua VDS ИТЛ Интернет-сервис/notes.txt",
+		"/Users/owlookit/_business/OWLOOKIT LLC/ДОГОВОРА/2014-01-03 @shevelya.com/security_shevelya.com.md",
+		"/Users/owlookit/Library/Caches/Cleanup At Startup/Transmit/07DE69FA-52F2-41EA-B572-91497BDD00F4/config.php",
+		"/Users/owlookit/Library/Caches/Cleanup At Startup/Transmit/63AA50EA-6C60-4B7D-8E67-73B6AA009FC2/shevcp.php",
+		"/Users/owlookit/Downloads/Divertikulose/Divertikulose und Divertikulitis.md",
+		"/Users/owlookit/Downloads/Divertikulose und Divertikulitis.md",
+		"/Users/owlookit/Downloads/1.md",
+		"/Users/owlookit/Downloads/2.md",
+		"/Users/owlookit/Downloads/#deutsch Aerzte.md",
+		"/Users/owlookit/Downloads/книга Сигалла Кена «Безумно просто».md",
+		"/Users/owlookit/Library/Application Support/1Password 4/com.agilebits.Attachments/F87EF716BA564157B3E3245F6C47EA39/8BCDBF199247422C9EA232DECF30B28B/security.md",
+		"/Users/owlookit/Documents/#scan Khamoyan/Khamoyan_Rechnung/Khamoyan_Re-Rechnung.md",
+		"/Users/owlookit/Downloads/Khamoyan.md",
+		"/Users/owlookit/Documents/#scan Khamoyan/Khamoyan letter to charite.international@charite.de.md",
+		"/private/var/folders/5v/kgvhg3gs0bxc3lht6dl7gw500000gn/T/pl.ewas.Crax/crax-tmp-1DA59E31-D8E6-4655-8A75-BA11F0F69DC0/.htpasswd",
+		"/private/var/folders/5v/kgvhg3gs0bxc3lht6dl7gw500000gn/T/pl.ewas.Crax/crax-tmp-95C97B7F-6DC5-4A8B-93FB-1DD7E1D7F520/.htaccess",
+		"/Users/owlookit/Desktop/h5ai/README.md",
+		"/Users/owlookit/Downloads/Adobe Edge/#edu Анимации в Adobe Edge Animate CC (Данил Фимушкин)/5_modul/5_modul_ishodniki/hosting.txt",
+		"/Users/owlookit/_dev/_test/ocs-isic/html-isic/template_2013/links.md",
+		"/Users/owlookit/_dev/_test/ocs-isic/html-isic/template_2015/links.md",
+		"/Users/owlookit/_dev/_test/ocs-isic/html-isic/template_02/links.md",
+		"/Users/owlookit/Downloads/sitestyle.css",
+		"/Users/owlookit/Downloads/rightSidebar.css",
+		"/Users/owlookit/Downloads/sidebar.css",
+		"/Users/owlookit/Downloads/common_styles.css",
+		"/Users/owlookit/_dev/_test/ocs-isic/html-isic/template_01/links.md",
+		"/Users/owlookit/Downloads/links.html",
+		"/Users/owlookit/Downloads/rightsidebar.css",
+		"/Users/owlookit/Downloads/conferenceStyleSheet.css",
+		"/Users/owlookit/Downloads/common_lib.css",
+		"/Users/owlookit/Downloads/common.css",
+		"/Users/owlookit/Downloads/cow.html",
+		"/Users/owlookit/Downloads/style.sass",
+		"/private/var/folders/5v/kgvhg3gs0bxc3lht6dl7gw500000gn/T/pl.ewas.Crax/crax-tmp-429E78E9-CF65-414B-9C8D-5AE3475A09DB/sn_document_head.html",
+		"/private/var/folders/5v/kgvhg3gs0bxc3lht6dl7gw500000gn/T/pl.ewas.Crax/crax-tmp-DA62FB85-DDAA-4161-AD4C-B387E96EC163/sn_header.html",
+		"/private/var/folders/5v/kgvhg3gs0bxc3lht6dl7gw500000gn/T/pl.ewas.Crax/crax-tmp-4212AD19-D472-4B3E-9D79-1F8AF90F34EE/sn_bottom.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"",
+			"<open files>",
+			"",
+			"<open files>",
+			"",
+			"<open files>",
+			"<em>",
+			"<open files>",
+			"<strong",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\\t ",
+			" \\t",
+			" - ",
+			"colo",
+			"from idea to beyound",
+			"Schneider: Putin geht aus von zwei irrationalen Annahmen. Aber alles, was dann folgt, ist durchaus rational. Irrational ist für Putin das Trauma des Verfalls der Sowjetunion, mit dem er nicht fertig wird, wie er es selbst einmal 2005 ausgedrückt hat, und die zweite irrationale Annahme für meine Begriffe ist die Angst Putins vor einem erfolgreichen Maidan in Moskau. Die ist natürlich ausgelöst worden durch die Entwicklung in Kiew im Februar letzten Jahres, aber auch durch die Demonstrationen Anfang Dezember 2011 gegen die Fälschung der Staatsdumawahl in Moskau, und wiederum in Moskau am 6. März 2013 gegen die Vereidigung Putins als neuer Präsident.\n\n",
+			"Das ist richtig, und es gab auch entsprechende Äußerungen Putins in Telefonaten mit Barroso, in drei Wochen könnte er in Riga sein, in Tallin, in Estland, in Warschau und in Bukarest.\nJa, diese Überlegungen un Drohungen gibt es natürlich, die natürlich gerichtet sind vor allem an die westliche Adresse, um sie einzuschüchtern.\n",
+			"That's right, and there were corresponding expressions in telephone conversations with Putin Barroso, in three weeks, he could be in Riga, Tallinn , Estonia, in Warsaw and Bucharest.\nYes, these considerations un threats there are , of course , which of course are mainly directed to the western address to intimidate .",
+			"Das ist richtig, und es gab auch entsprechende Äußerungen Putins in Telefonaten mit Barroso, in drei Wochen könnte er in Riga sein, in Tallin, in Estland, in Warschau und in Bukarest.\nJa, diese Überlegungen un Drohungen gibt es natürlich, die natürlich gerichtet sind vor allem an die westliche Adresse, um sie einzuschüchtern.\n",
+			"1",
+			";",
+			"  ",
+			"@((?!media|include)[a-zA-Z_]*)",
+			";\n",
+			"ambigious",
+			"datab",
+			"Medien",
+			"Vorteile",
+			"Mithilfe",
+			"Mithilfe der Medien ist es möglich, sich selbst zu verwirklichen und am kulturellen sowie gesellschaftlichen Leben teilzuhaben.\nModerne Medien sind immer wichtiger in unserem alltäglichen Leben geworden\n",
+			"Mithilfe",
+			"Mithilfe der Medien ist es möglich, sich selbst zu verwirklichen und am kulturellen sowie gesellschaftlichen Leben teilzuhaben.\n",
+			"[",
+			"/**\n/**",
+			"glyphicons-halflings",
+			"clock",
+			"jquery",
+			"",
+			"",
+			"lato",
+			"200/200",
+			"<!",
+			"javas",
+			"assets",
+			"jade",
+			"var",
+			"/*",
+			"center",
+			"*",
+			"/*",
+			"250",
+			"back",
+			"color",
+			"heigh",
+			";",
+			"css",
+			";",
+			"}",
+			" {",
+			"sass",
+			"file",
+			"liver",
+			"inter_css",
+			"watch",
+			"sass",
+			"sassl",
+			"sass",
+			"../built/",
+			"../src/",
+			"log",
+			"logimao",
+			"./a",
+			"href=\" a",
+			"./ ",
+			"green",
+			"page_files",
+			"http://stratoplan.ru/manager/",
+			"name",
+			"virt",
+			"DocumentRoot",
+			"virtual h",
+			"#Einladung für eine Geschäftsreise\n",
+			"  ",
+			"̆",
+			"iter",
+			"owlookit.de",
+			"owlookit.ua",
+			"dfdf",
+			"\n<",
+			"</p>",
+			"<p>",
+			"  ",
+			"&nbsp;",
+			"&nbsp;<",
+			"</b",
+			"</i",
+			"<i",
+			"<b",
+			".\n",
+			"workplace",
+			"abnormal Doppler",
+			"The morphological and Doppler ultrasound ",
+			"Peculiarities of obstructive bronchitis in ",
+			"Olhkovskiy",
+			"bronchitis in infants",
+			"obstructive bronchitis in infants",
+			"obstructive bronchitis in infants were studied",
+			"</b><b>",
+			"<p class=\"p12\">",
+			"<p class=\"p11\">",
+			"<p class=\"p7\">",
+			"<p class=\"p1\"><i></i><br>",
+			"<b></b>",
+			"<p class=\"p9\">",
+			"<p class=\"p8\">",
+			"</span>",
+			"<span >",
+			"<span > </span>",
+			"</b><b>",
+			"<span ><b> </b></span>",
+			"<span ><b> </b>",
+			"<p class=\"p6\">",
+			"class=\"s9\"",
+			"class=\"s8\"",
+			"class=\"s7\"",
+			"class=\"s6\"",
+			"class=\"s5\"",
+			"<p class=\"p5\"><b></b><br>",
+			"class",
+			"class=\"s4\"",
+			"class=\"s1\"",
+			"<span ></span>",
+			"class=\"s2\"",
+			"class=\"s3\"",
+			"Creation of combined drugs whose pharmacological effects are due to the rational combination of ingredients is the urgent problem of modern medicine. Combination of several components in one drug expands its pharmacological range and promotes polytropic activity. The advantage of combined drugs compared with pure drugs is that they more effectively eliminate pain and inflammation than each individual component.</p><p>Combined analgesics often include caffeine. According to literature data caffeine enhances analgesic effect of nonsteroidal anti-inflammatory drugs (NSAIDs) and nonnarcotic analgesics (NNA). However, there are no data on the composition of diclofenac sodium (D-Na), ibuprofen (Ib) with caffeine in the literature. This fact caused experimental studies of influence of caffeine on the analgesic and anti-exudative effects of D-Na and Ib. Experimental studies have been conducted on laboratory animals (white adult rats of the WAG strain) by intragastric administration. Analysis of experimental results clearly indicates that caffeine potentiates analgesic and anti-exudative effects of D-Na and Ib.</p><p>Thus, compositions of D-Na and Ib with caffeine were experimentally studied for the first time.  Suitability of compositions is proved and application in inflammation and pain of various origins is demonstrated",
+			"<p class=\"p13\">",
+			"<p class=\"p1\"><b></b><br>",
+			"</p>"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"\\t",
+			"\\n\\t",
+			"\\r\\t",
+			"<sup>1</sup>",
+			"",
+			" ",
+			"$\\1",
+			"// **",
+			" ",
+			"100/100",
+			"//",
+			"",
+			"../built/grid_susy/",
+			"../src/grid_susy/",
+			"a",
+			"href=\"a",
+			"",
+			" assets",
+			" ",
+			"<",
+			"</strong",
+			"</em",
+			"<em",
+			"<strong",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "msz.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"jquery",
+				"src/scripts/lib/jquery-plugin.js"
+			],
+			[
+				"jquery-plug",
+				"src/scripts/vendor/jquery-plugin.js"
+			],
+			[
+				"vendor",
+				"src/javascript/vendor/jquery-plugin.js"
+			],
+			[
+				"typog",
+				"src/sass/_typography.sass"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 219.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

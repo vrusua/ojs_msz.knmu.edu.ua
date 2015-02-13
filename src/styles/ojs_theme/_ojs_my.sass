@@ -1,0 +1,119 @@
+// 20141017
+
+body
+    //background-color: #F4E0B2
+    @include type-body
+    line-height: 1.5
+    margin: 0
+    padding: 0
+    font-size: $base-font-size / 24px * 100 + 0%
+    text-rendering: optimizeLegibility  
+    font-family: 'Lato', sans-serif
+
+.label
+    //border: 1px solid #f00;
+    //display: block;
+    //min-height: 100%;  for the latest browsers which support min-height
+    //height: auto !important;  for newer IE versions
+    //height: 100%;  the only height-related attribute that IE6 does not ignore
+    background-color: #FFF
+    color: #005F47
+
+.breadcrumbs
+    background-color: #005F47
+    color: white
+    a
+        color: white
+        &.current
+            //border: 1px solid #f00;
+            color: white
+            font-weight: 900
+
+.tocArticle
+    font-size: 14px
+
+#journalDescription
+    text-align: justify
+    text-justify: inter-word
+    img
+        padding-right: 30px
+
+.tocGalleys, .tocPages
+    text-align: right
+    min-width: 50px
+
+#articleTitle, #authorString
+    visibility: hidden
+    height: 0
+    margin: 0
+    padding: 0
+    font-size: 0
+
+#articleAbstract
+    h4
+        visibility: hidden
+        height: 0
+        margin: 0
+        padding: 0
+        font-size: 0
+    text-align: justify
+    text-justify: inter-word
+
+
+// -- Menu styling --
+//-----------------------------------------------------------------------------
+.menu
+    ul
+        margin: 0
+        padding: 0
+        list-style-type: none
+        text-align: center
+    li
+        display: inline-block
+        a
+            text-decoration: none
+            padding: .2em 1em
+            color: #fff
+            background-color: #005F47
+            &:hover
+                color: #fff
+                background-color: #008350
+
+// -- / Menu styling --
+
+// -- Remove numeration in the List of Editors --
+//-----------------------------------------------------------------------------
+.editorialTeam
+    li
+        list-style-type: none
+        // Markers removing
+    ol
+        margin-left: 0
+        // Left ident in IE and Opera
+        padding-left: 0
+        // Left ident in Firefox, Safari, Chrome
+
+.plain
+    li
+        list-style-type: none
+        // Markers removing
+    ul
+        margin-left: 0
+        // Left ident in IE and Opera
+        padding-left: 0
+        // Left ident in Firefox, Safari, Chrome
+
+// -- / Remove numeration in the List of Editors --
+
+// -- Auto numeration in the Reference List --
+//-----------------------------------------------------------------------------
+#articleCitations > div
+    counter-reset: paragraph
+    > p:before
+        position: absolute
+        margin-left: -25px
+        color: #005F47
+        content: counter(paragraph) "."
+        counter-increment: paragraph
+
+// -- / Auto numeration in the Reference List --

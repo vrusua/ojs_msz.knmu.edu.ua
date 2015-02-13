@@ -1,0 +1,50 @@
+// == Typography General - Simple Susy==
+// http://codepen.io/abberdab/pen/AgqFo
+//============================================================================= 
+
+// -- Font Layouts --
+//-----------------------------------------------------------------------------
+@import url(http://fonts.googleapis.com/css?family=Signika:100,300,400,700,900)
+// -- / Font Layouts --
+
+// -- mixins - Font Size --
+//-----------------------------------------------------------------------------
+
+$base-font-size: 16px
+
+@function em($target, $base-font-size)
+    @return $target / $base-font-size + 0em
+
+@function lh($target, $base-font-size)
+    @return $target / $base-font-size
+
+=type-head-large
+    font-family: 'Signika', Trebuchet, Verdana, Arial
+    font-style: normal
+    font-weight: 100
+
+=type-head-med
+    font-family: 'Signika', Trebuchet, Verdana, Arial
+    font-style: normal
+    font-weight: 100
+
+=type-body
+    font-style: normal
+    font-weight: 400
+
+=type-head-caps
+    font-style: normal
+    font-weight: 300
+    text-transform: uppercase
+    letter-spacing: 2px
+
+// -- / mixins - Font Size --
+
+// -- mixins - Font Appearence --
+//-----------------------------------------------------------------------------
+=font-smoothing
+    -moz-osx-font-smoothing: grayscale
+    -webkit-font-smoothing: antialiased
+// -- / mixins - Font Appearence --
+
+// == / Typography General - Simple Susy == 

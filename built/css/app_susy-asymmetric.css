@@ -1,0 +1,110 @@
+.wrap {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.wrap:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+head {
+  display: block;
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  z-index: 999;
+  color: #333;
+  background: rgba(255, 255, 255, 0.25);
+}
+head:before {
+  content: "|||";
+  display: block;
+  padding: 5px 10px;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+head:hover {
+  background: rgba(255, 255, 255, 0.5);
+  color: red;
+}
+head:hover ~ .wrap, head:hover ~ body .wrap {
+  position: relative;
+}
+head:hover ~ .wrap:before, head:hover ~ body .wrap:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  content: " ";
+  z-index: 998;
+  background-image: linear-gradient(to right, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 10%, transparent 10%, transparent 12.5%, rgba(102, 102, 255, 0.25) 12.5%, rgba(179, 179, 255, 0.25) 32.5%, transparent 32.5%, transparent 35%, rgba(102, 102, 255, 0.25) 35%, rgba(179, 179, 255, 0.25) 65%, transparent 65%, transparent 67.5%, rgba(102, 102, 255, 0.25) 67.5%, rgba(179, 179, 255, 0.25) 87.5%, transparent 87.5%, transparent 90%, rgba(102, 102, 255, 0.25) 90%, rgba(179, 179, 255, 0.25));
+  background-origin: content-box;
+  background-clip: content-box;
+  background-position: left top;
+}
+
+.sidebar-one {
+  width: 10%;
+  float: left;
+  margin-left: 0;
+  margin-right: -100%;
+}
+
+.sidebar-two {
+  width: 10%;
+  float: left;
+  margin-left: 90%;
+  margin-right: -100%;
+}
+
+.content {
+  width: 75%;
+  float: left;
+  margin-left: 12.5%;
+  margin-right: -100%;
+}
+
+.nest-one {
+  width: 26.67%;
+  float: left;
+  margin-left: 0;
+  margin-right: -100%;
+}
+
+.nest-two {
+  width: 70%;
+  float: left;
+  margin-left: 30%;
+  margin-right: -100%;
+}
+
+.wrap {
+  height: 100vh;
+}
+
+.sidebar-one, .sidebar-two {
+  background: aquamarine;
+  height: 40vh;
+}
+
+.nest-one, .nest-two {
+  background: LavenderBlush;
+  height: 80vh;
+}
+
+.content {
+  background: DarkTurquoise;
+  height: 180vh;
+}
+
+h2 {
+  text-align: center;
+}
+
+body {
+  background-color: transparent;
+  background-image: url("../i/bg2.png");
+}

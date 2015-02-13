@@ -1,0 +1,113 @@
+// == BASE - Typography General ==
+// http://codepen.io/abberdab/pen/AgqFo
+//============================================================================= 
+
+
+// -- Colors --
+//-----------------------------------------------------------------------------
+$blue:  #3761a5
+$red:   #a54230
+$white: #ffffff
+$grey:  #878787
+
+// -- / Colors --
+
+
+// -- Font Layouts --
+//-----------------------------------------------------------------------------
+$base-font-size: 16px
+
+// @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900)
+// $font-family: 'Lato'
+
+@import url(http://fonts.googleapis.com/css?family=Exo+2:100,300,400,700,900)
+$font-family: 'Exo 2'
+
+// -- / Font Layouts --
+
+
+// -- Basic Styles --
+//-----------------------------------------------------------------------------
+a, a:link, a:visited, a:active
+    color: darken($blue, 5%)
+
+a:hover, a:focus
+    color: $blue
+
+p
+    margin: 1em 0
+img
+    max-width: 100%
+    height: auto
+
+body
+    background: url(../i/bedge_grunge.png)
+    @media (max-width: 700px)
+        +type-body
+        margin: 0
+        padding: 0
+        font-size: em(16px, $base-font-size)
+        line-height: lh(20, 16)
+    @media (min-width: 700px)
+        +type-body
+        +font-smoothing
+        margin: 0
+        padding: 0
+        font-size: em(20px, $base-font-size)
+        line-height: lh(24, 20)
+
+// -- / Basic Styles --
+
+// -- Headings --
+//-----------------------------------------------------------------------------
+@media (max-width: 700px)
+    h1
+        +type-head-med
+        font-size: em(36px, $base-font-size)
+        line-height: lh(48, 36)
+        color: $white
+        background-color: $red
+    h2
+        +type-head-med
+        font-size: em(24px, $base-font-size)
+        line-height: lh(36, 24)
+        color: $white
+        background-color: $red
+    h3
+        +type-head-caps
+        font-size: em(36px, $base-font-size)
+        line-height: lh(48, 36)
+        color: $white
+        background-color: $red
+    h4
+        +type-head-caps
+        font-size: em(22px, $base-font-size)
+        line-height: lh(32, 22)
+        color: $white
+        background-color: $red
+
+@media (min-width: 700px)
+    h1
+        +type-head-large
+        font-size: em(96px, $base-font-size)
+        line-height: lh(108, 96)
+        color: $red
+    h2
+        +type-head-med
+        font-size: em(48px, $base-font-size)
+        line-height: lh(54, 48)
+        color: $red
+    h3
+        +type-head-caps
+        font-size: em(36px, $base-font-size)
+        line-height: lh(48, 36)
+        color: $red
+    h4
+        +type-head-caps
+        font-size: em(18px, $base-font-size)
+        line-height: lh(24, 18)
+        color: $red
+
+// -- / Headings --
+
+// == / BASE - Typography General == 

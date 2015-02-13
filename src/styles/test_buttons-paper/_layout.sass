@@ -1,0 +1,74 @@
+// == LAYOUT - Simple Susy ==
+// Build Web Layouts Easily with Susy
+// Published September 18, 2014  by Guest Author
+// http://css-tricks.com/build-web-layouts-easily-susy/
+// http://codepen.io/abberdab/pen/AgqFo
+//============================================================================= 
+
+$susy: (columns: 12, global-box-sizing: border-box, use-custom: (rem: true), debug: (image: show, output: overlay, toggle: top right))
+
+// apply border-box model to all elements (using the star selector)
+// and set $border-box-sizing to true
+@include border-box-sizing
+
+.wrap
+    +container(1120px)
+    // Changing to a 4 column grid
+    @media (max-width: 700px)
+        +show-grid(4)
+    @media (min-width: 1200px)
+        +show-grid(12)
+        
+.headline
+    margin-top: gutter()
+    margin-bottom: gutter()
+    padding: 0 gutter()
+    border-top: 1px solid lighten(grey, 40%)
+    border-bottom: 1px solid lighten(grey, 40%)
+
+.content
+    margin-bottom: gutter()
+    padding: gutter()
+    border-top: 1px solid lighten(grey, 40%)
+    border-bottom: 1px solid lighten(grey, 40%)
+    @media (min-width: 700px)
+        +span(8)
+
+.sidebar
+    margin-bottom: gutter()
+    padding: 0 gutter() gutter()
+    border-top: 1px solid lighten(grey, 40%)
+    border-bottom: 1px solid lighten(grey, 40%)
+    @media (min-width: 700px)
+        +span(4 last)
+
+.gallery
+    +clearfix // gallery() mixins use floats - we have to add a clearfix to force the gallery to clear its children
+    padding: 0 gutter() gutter()
+    margin-bottom: gutter()
+    border-top: 1px solid lighten(grey, 40%)
+    border-bottom: 1px solid lighten(grey, 40%)
+    clear: both // .gallery from the new flow
+    ul
+        margin: 0
+        padding: 0
+        list-style: none
+        .gallery__item
+            +gallery(2 of 10)
+            margin-bottom: gutter(10) // equal vertical space between each gallery item by adding some margins to the bottom of each item
+            background: lighten(grey, 40%)
+            @media (min-width: 700px)
+                +gallery(1 of 10)
+                margin-bottom: 0
+
+.gallery-image
+    display: block
+
+// clear bullets 
+.menu > li
+    list-style: none
+    display: inline-block
+    margin: 0 2px
+
+// == / LAYOUT - Simple Susy == 
+

@@ -1,0 +1,46 @@
+// @import compass/css3
+
+@import _animations
+
+$experimental-support-for-khtml: false
+
++keyframes(anim-1)
+    from
+        margin-left: 100px
+    50%
+        margin-left: 200px
+    to
+        margin-left: 100px
+
+
++keyframes(anim-2)
+    from
+        +rotateZ(-30deg)
+    50%
+        +rotateZ(30deg)
+    to
+        +rotateZ(-30deg)
+
+
+div
+    margin-top: 80px
+    margin-left: 150px
+    padding: 10px
+    width: 200px
+    font-size: 24px
+    text-align: center
+    background: #DDD
+
+// Single shortcut way
+#demo-1
+    +animation(anim-1 2s linear infinite)
+
+#demo-2
+    +animation(anim-2 2s linear infinite)
+
+// Multiple shortcut way
+#demo-3
+    +animation(anim-1 1s ease infinite, anim-2 2s linear infinite)
+
+#demo-4
+    +animation-simple($name: anim-2, $duration: 10s, $iteration-count: infinite)

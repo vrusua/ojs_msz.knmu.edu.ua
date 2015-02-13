@@ -1,0 +1,127 @@
+// == BASE STYLES - Susy Academic ==
+// http://codepen.io/abberdab/pen/AgqFo
+//============================================================================= 
+
+// -- Constants --
+//-----------------------------------------------------------------------------
+$blue: #2e3484
+$red: #EA363F
+$white: #ffffff
+$grey: #dedede
+
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700)
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow&subset=cyrillic-ext)
+
+// -- / Constants--
+
+
+// -- Style - General--
+//-----------------------------------------------------------------------------
+body
+    color: $blue
+    +border-box-sizing
+    font-family: 'PT Sans' sans-serif
+
+h1, h2
+    font-family: 'PT Sans Narrow' sans-serif
+
+a.red-link
+    +redlink
+
+header
+    border-bottom: 1px solid $grey
+    padding-bottom: 10px
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2)
+// -- / Style - General --
+
+
+// -- Style - Home page --
+//-----------------------------------------------------------------------------
+.front-page
+    h2,
+    article
+        text-align: center
+
+hr.fr-line
+    height: 30px
+    border: none
+    border-top: 1px solid $grey
+    color: $grey
+    text-align: center
+    margin: 30px 0
+    line-height: 100%
+    position: relative
+    overflow: visible
+    margin: 1px 0
+    &:before
+        background: $red
+        content: ""
+        height: 1px
+        left: 25%
+        position: absolute
+        margin-top: -1px
+        width: 50%
+    &:after
+        background: $white
+        color: $red
+        content: ' '
+        display: inline-block
+        font-family: "fontello"
+        font-size: 30px
+        line-height: 35px
+        padding: 0 40px
+        position: relative
+        top: -15px
+
+.top-content
+    text-align: right
+
+.city-phone
+    display: inline-block
+    p
+        span
+            color: $red
+            font-size: 1.1rem
+
+.social-icons
+    display: inline-block
+    ul
+        +inline-list(2px 3px, 2px 3px)
+
+.order-now-btn
+    display: inline-block
+    a
+        text-decoration: none
+        color: $white
+        background-color: $red
+        padding: 5px 10px
+        box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.35)
+        span
+            text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.6)
+        &:active
+            padding: 4px 9px
+            margin: 1px 1px
+            box-shadow: 1px 1px 0px 0px rgba(0, 0, 0, 0.35)
+
+.top-menu
+    text-align: right
+    ul
+        +inline-list(2px 3px, 5px 10px)
+// -- / Style - Home page --
+
+
+// -- Style - fp-our-curse --
+//-----------------------------------------------------------------------------
+.prepod-list
+    text-align: center
+    ul
+        +inline-list(0, 10px)
+        li
+            a
+                text-decoration: none
+                figure
+                    +circle-image-w-shadow(5px, 150px)
+// -- / Style - fp-our-curse --
+
+
+// == / BASE STYLES - Susy Academic == 

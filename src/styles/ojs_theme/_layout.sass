@@ -1,0 +1,53 @@
+// Build Web Layouts Easily with Susy
+// Published September 18, 2014  by Guest Author
+// http://css-tricks.com/build-web-layouts-easily-susy/
+// http://codepen.io/abberdab/pen/AgqFo
+
+@import ../vendor/susy/_susy.scss
+@import ojs_my
+
+$susy: (columns: 12, global-box-sizing: border-box, debug: (image: show))
+
+// apply border-box model to all elements (using the star selector)
+// and set $border-box-sizing to true
+@include border-box-sizing
+
+.wrap
+    +container(1140px)
+    // Forces wrap to full height. 
+    height: 100vh
+    +show-grid(8)
+    @media (min-width: 700px)
+        +show-grid(12)
+
+.content
+    @media (min-width: 700px)
+        +span(8)
+
+.sidebar
+    @media (min-width: 700px)
+        +span(4 last)
+
+.social
+    padding: gutter()
+    +clearfix
+    .social__list-item
+        +gallery(2 of 10)
+        margin-bottom: gutter(10)
+        @media (min-width: 700px)
+            +gallery(1 of 10)
+            margin-bottom: 0
+
+.content,
+.sidebar
+    background-color: #FFF
+    text-align: center
+    font-size: 28px
+    line-height: 3em
+    height: auto
+
+.sidebar
+    min-height: 80vh
+
+.social
+    background: black

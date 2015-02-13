@@ -1,0 +1,32 @@
+// == TEST Layout - Susy - Academic site ==
+// http://codepen.io/owlookit/pen/azvrRK
+//============================================================================= 
+
+$susy: (columns: 12, global-box-sizing: border-box, use-custom: (rem: true), debug: (image: show, output: overlay, toggle: top right))
+
+// apply border-box model to all elements (using the star selector)
+// and set $border-box-sizing to true
++border-box-sizing
+
+// -- Layout (Susy2) --
+//-----------------------------------------------------------------------------
+.wrap
+    +container(1120px)
+    // Changing to a 4 column grid
+    @media (max-width: 700px)
+        +show-grid(4)
+    @media (min-width: 1200px)
+        +show-grid(12)
+
+header
+    .logo
+        +span(4 of 12)
+    .right-content
+        +span(8 of 12 last)
+        .top-content
+            +clearfix
+// -- / Layout (Susy2) --
+
+
+// == / TEST Layout - Susy - Academic site == 
+

@@ -1,0 +1,41 @@
+article.fp-our-curse
+  .container
+    h2 Наши курсы
+    hr.fr-line
+    .prepod-list
+      ul
+        - var curse = {text : "http://lorempixel.com/output/nature-q-c-150-150-9.jpg", lol : "http://lorempixel.com/output/people-q-c-150-150-4.jpg", rrr : "http://lorempixel.com/output/nightlife-q-c-150-150-9.jpg"}
+        - each val, key in curse
+          li
+            a(href="#") 
+              figure
+                img(src="#{val}" alt="")
+              span #{key}
+
+article.fp-method
+  .container
+    h2 Методика
+    hr.fr-line
+    .method-content
+      p Главной особенностью и преимуществом English Centre является не только специализация на обучении английскому языку, но и привлечение к работе в центре носителей языка, имеющих большой опыт преподавания и обязательно профильное образование. Благодаря этому мы можем гарантировать высокое качество обучения и «живой» язык.
+article.fp-coolecive
+  .container
+    h2 Коммукативная методика обучения языкам
+    hr.fr-line
+    p В нашем Центре мы используем коммуникативную методику обучения языку, которая тренирует все навыки владения языком и основана на развитии четырех основных аспектов владения иностранным языком. Коммуникативный метод предполагает развитие способности общаться и думать на изучаемом языке в обстоятельствах реальной жизни.
+    a(href="#").red-link Узнать о методике подробнее →
+
+article.fp-prepods
+  .container
+    h2 Преподаватели
+    hr.fr-line
+    .prepod-list
+      ul
+        - var curse = {text : "http://lorempixel.com/output/nature-q-c-150-150-9.jpg", lol : "http://lorempixel.com/output/people-q-c-150-150-4.jpg", rrr : "http://lorempixel.com/output/nightlife-q-c-150-150-9.jpg"}
+        - each val, key in curse
+          li
+            a(href="#") 
+              figure
+                img(src="#{val}" alt="")
+              span #{key}
+    a(href="#").red-link Познакомиться со всеми преподавателями →

@@ -1,0 +1,193 @@
+// line 2, ../_src/sass/screen-amq.scss
+
+*
+    box-sizing: border-box
+    -moz-box-sizing: border-box
+    margin: 0
+    padding: 0
+
+// line 8, ../_src/sass/screen-amq.scss
+
+body
+    background: #ccc
+
+// line 12, ../_src/sass/screen-amq.scss
+
+.group:after
+    display: block
+    clear: both
+
+// line 17, ../_src/sass/screen-amq.scss
+
+.page-wrap
+    width: 80%
+    background: white
+    margin: 1rem auto
+    padding: 2rem
+    -webkit-transition: 0.4s
+    -moz-transition: 0.4s
+    -o-transition: 0.4s
+    transition: 0.4s
+
+// line 24, ../_src/sass/screen-amq.scss
+
+.main-header
+    position: relative
+
+// line 27, ../_src/sass/screen-amq.scss
+
+.logo
+    width: 25%
+    background: #F06D06
+    padding: 0.5rem 1rem
+    color: white
+    font-size: 3rem
+    float: left
+    height: 80px
+    -webkit-transition: 0.4s
+    -moz-transition: 0.4s
+    -o-transition: 0.4s
+    transition: 0.4s
+
+// line 37, ../_src/sass/screen-amq.scss
+
+.search
+    width: 25%
+    position: absolute
+    left: 25%
+    top: 0
+    background: lightblue
+    height: 80px
+    padding: 1rem
+    -webkit-transition: 0.8s
+    -moz-transition: 0.8s
+    -o-transition: 0.8s
+    transition: 0.8s
+    label
+        display: block
+
+// line 46, ../_src/sass/screen-amq.scss
+
+// line 50, ../_src/sass/screen-amq.scss
+
+.nav
+    width: 50%
+    float: right
+    background: lightgreen
+    height: 80px
+    padding: 1rem
+    -webkit-transition: 0.4s
+    -moz-transition: 0.4s
+    -o-transition: 0.4s
+    transition: 0.4s
+
+// line 58, ../_src/sass/screen-amq.scss
+
+.main-content
+    overflow: hidden
+    clear: both
+    -webkit-transition: 0.4s
+    -moz-transition: 0.4s
+    -o-transition: 0.4s
+    transition: 0.4s
+
+// line 63, ../_src/sass/screen-amq.scss
+
+.main-content--articles
+    width: 75%
+    float: left
+    background: #eee
+    padding: 1rem
+    -webkit-transition: 0.4s
+    -moz-transition: 0.4s
+    -o-transition: 0.4s
+    transition: 0.4s
+    article
+        background: white
+        padding: 1rem
+        margin: 0 0 1rem 0
+        &:last-child
+            margin: 0
+
+// line 69, ../_src/sass/screen-amq.scss
+
+// line 73, ../_src/sass/screen-amq.scss
+
+// line 78, ../_src/sass/screen-amq.scss
+
+.main-content--sidebar
+    width: 25%
+    float: right
+    background: #ddd
+    padding: 1rem
+
+// line 84, ../_src/sass/screen-amq.scss
+
+.module
+    background: white
+    padding: 1rem
+    -webkit-transition: 0.4s
+    -moz-transition: 0.4s
+    -o-transition: 0.4s
+    transition: 0.4s
+
+@media (max-width: 850px)
+    // line 91, ../_src/sass/screen-amq.scss
+    .page-wrap
+        width: 98%
+
+@media (max-width: 700px)
+    // line 96, ../_src/sass/screen-amq.scss
+    .search
+        left: 66.66%
+        top: 80px
+        width: 33.33%
+    // line 101, ../_src/sass/screen-amq.scss
+    .logo
+        width: 33.33%
+    // line 104, ../_src/sass/screen-amq.scss
+    .nav, .main-content--articles
+        width: 66.66%
+    // line 107, ../_src/sass/screen-amq.scss
+    // line 110, ../_src/sass/screen-amq.scss
+    .main-content--sidebar
+        width: 33.33%
+        padding-top: 80px
+    // line 114, ../_src/sass/screen-amq.scss
+    .module
+        margin-top: 1rem
+
+@media (max-width: 550px)
+    // line 119, ../_src/sass/screen-amq.scss
+    .page-wrap
+        padding: 1rem
+    // line 122, ../_src/sass/screen-amq.scss
+    .logo
+        width: 100%
+    // line 125, ../_src/sass/screen-amq.scss
+    .nav
+        width: 100%
+        height: 50px
+    // line 129, ../_src/sass/screen-amq.scss
+    .search
+        left: 0
+        width: 100%
+        top: 130px
+        height: 70px
+    // line 135, ../_src/sass/screen-amq.scss
+    .main-content
+        padding-top: 70px
+    // line 138, ../_src/sass/screen-amq.scss
+    .main-content--articles
+        width: 100%
+    // line 141, ../_src/sass/screen-amq.scss
+    .main-content--sidebar
+        padding-top: 0
+        width: 100%
+
+// line 147, ../_src/sass/screen-amq.scss
+
+.note
+    text-align: center
+    padding: 0.5rem
+    font: bold 1.2rem sans-serif

@@ -1,0 +1,36 @@
+// == BASE - Mixins ==
+//============================================================================= 
+
+// -- base_mixins - Font Size --
+//-----------------------------------------------------------------------------
+
+@function em($target, $base-font-size)
+    @return $target / $base-font-size + 0em
+
+@function lh($target, $base-font-size)
+    @return $target / $base-font-size
+
+=type-head-large
+    font-family: $font-family, sans-serif
+    font-style: normal
+    font-weight: 100
+
+=type-head-med
+    font-family: $font-family, sans-serif
+    font-style: normal
+    font-weight: 100
+
+=type-body
+    font-family: $font-family, sans-serif
+    font-style: normal
+    font-weight: 400
+
+=type-head-caps
+    font-style: normal
+    font-weight: 300
+    text-transform: uppercase
+    letter-spacing: 2px
+
+// -- / base_mixins - Font Size --
+
+// == / BASE - Mixins == 
